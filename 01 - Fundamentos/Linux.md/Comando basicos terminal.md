@@ -1,0 +1,13 @@
+## 1. O que aprendi?
+- comandos básicos do terminal linux :
+   **pwd** (mostra em qual diretório você se encontra)
+   **ls** (lista cada diretório pertencente ao diretório atual)
+   **ls -la** (lista cada diretório, arquivo, arquivos ocultos (que começam com .) e tamanho de cada arquivo)
+   **mkdir** (cria uma pasta)
+   **touch** (cria um arquivo editável)
+   **echo** [algo] > [nome do arquivo] (escreve [algo] dentro do arquivo)
+   **head** [nome do arquivo] (mostra cada linha do arquivo, ao por "n" na frente e o numero, lista de cima pra baixo a quantidade de linhas de acordo com o numero selecionado)
+   **tail** [nome do arquivo] (mostra de baixo pra cima a quantidade de linhas que voce selecionar usando "n" também)
+   **tail -f** (esse "-f" faz com que você consiga verificar em tempo real cada atualização dentro desse arquivo.)
+   **rm** (remove um arquivo)
+   **rm -rf** (força a remoção de um diretório ou qualquer arquivo)
