@@ -7,3 +7,4 @@
 - sudo apt install ([program name]): Install the program.
 - sudo apt remove ([program name]): Remove the application.
 - sudo dpkg -i ([file name]): Installs packages ending with .deb  (Debian)
+- dpkg -l: List installed Debian packages.
