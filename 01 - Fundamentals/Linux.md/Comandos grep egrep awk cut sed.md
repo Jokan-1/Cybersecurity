@@ -13,5 +13,5 @@
 - `sed 's/antigo/novo/' <dir/file> > <dir/file2>`: Criará um novo arquivo com o conteúdo selecionado.
 
 # Observações:
-- Em certas ocasiões, usar " " ao utilizar o grep ou o egrep evitará com que o sistema não identifique o pedido, exemplo: `egrep root|desec /etc/passwd`: o sistema não conseguirá compreender o que se pede por conta do pipe |. Forma correta: `egrep "root|desec" /etc/passwd`
+- Em certas ocasiões, usar " " ao utilizar o grep ou o egrep evitará com que o sistema não identifique o pedido, exemplo: `egrep root|desec /etc/passwd`: o sistema não conseguirá compreender o que se pede por conta do pipe |. Forma correta: `egrep "root|desec" /etc/passwd`.
 - Para que o `egrep` funcione com exatidão, ponha o diretório a ser vasculhado logo após o primeiro comando: `egrep "palavra1" <dir/file> | grep "palavra2"`.
