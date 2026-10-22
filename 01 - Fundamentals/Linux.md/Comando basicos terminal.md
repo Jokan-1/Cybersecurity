@@ -11,3 +11,4 @@
    - **tail -f** (esse "-f" faz com que você consiga verificar em tempo real cada atualização dentro desse arquivo.)
    - **rm** (remove um arquivo)
    - **rm -rf** (força a remoção de um diretório ou qualquer arquivo)
+   - **wc** -l (mostra a qntd. de linhas de um arquivo)
